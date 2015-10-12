@@ -1,0 +1,228 @@
+/* 
+Author: Franklin Calpito Jr.
+Version: 1.0
+Tags: minimalistic, simple, widgets, sidebar, elegant
+*/
+
+
+#header{
+
+}
+
+#header-top{
+
+}
+
+.nav-centered li{
+    float: none !important;
+    display:inline-block;
+}
+
+.nav-centered{
+    text-align: center;
+    float: none;
+}
+
+.nav-centered .dropdown-menu li{
+    display:block;
+}
+
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width: inherit;
+    /*background: #DDD;*/
+    margin-left: -15px;
+    padding: 0 15px;
+    z-index: 300;
+}
+
+#footer-top{
+    background: rgba(100, 47, 47, 1);
+}
+
+#footer-bottom{
+    padding: 7px 0;
+    color: #222;
+    min-height:35px;
+    background: rgba(90, 37, 37, 1);
+    color:  #EEE;
+}
+
+#footer-content p{
+    margin:0;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: transparent;
+    background: none;
+    border:none;
+}
+
+.navbar-default .nav > .active > a, 
+.navbar-default .nav > .active > a:hover, 
+.navbar-default .nav > .active > a:focus {
+    background-image:none;
+    background-color:#FFF;
+    background:none;
+    color: #222;
+    box-shadow: none;
+}
+/* Navbar Reset End */
+.navbar-default li:hover, 
+.navbar-default > li:hover > a,
+.navbar-default li a:hover{
+    background: #70A8D4;
+    color: #FFF;
+}
+
+.navbar-default .nav > .active > a:hover, 
+.navbar-default .nav > .active > a:focus {
+    color: #FFF;
+}
+
+.dropdown-menu > .active > a{
+    color: #222;
+    text-decoration: none;
+    background-color: #FFF;
+    outline: 0;
+    background-image: none;
+}
+
+.dropdown-menu > .active > a:hover, 
+.dropdown-menu > .active > a:focus {
+    background-color: #B15C5C;
+    background-image: none;
+}
+
+.nav-justified li{
+    margin:0;
+    padding:5px 0;
+}
+
+.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+    width: 100%;
+}
+
+.navbar-default li:hover, 
+.navbar-default > li:hover > a, 
+.navbar-default li a:hover {
+    background: #B15C5C;
+    color: #FFF;
+}
+
+.navbar-default li:hover,
+.navbar-default a:hover,
+.navbar-default .nav > .active > a:hover, 
+.navbar-default .nav > .active > a:focus {
+    background: none;
+    color: #B15C5C;
+}
+
+
+.vert-center{
+     position: relative;
+     top: 50%;
+     -webkit-transform: translateY(-30%);
+     -ms-transform: translateY(-30%);
+     transform: translateY(-30%);
+     text-align: center;
+}
+
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+#main-content{
+    padding-bottom:50px;
+}
+
+#header-top{
+    position: fixed;
+    padding-top: 50px;
+    top: 0;
+    height: 300px;
+    z-index: 100;
+    width: inherit;
+    margin-left: -30px;
+}
+
+#header-nav, #main-content{
+    position:relative;
+}
+
+.header-nav-scrolled{
+    position: fixed;
+    top: 0;
+    width: inherit;
+    z-index: 350;
+    margin-left: -30px;
+    padding:0 15px;
+    margin-bottom: 50px;
+}
+
+#header-nav{
+    padding-top: 250px;
+}
+
+#header-logo{
+    padding: 30px 30px;
+}
+
+#header-nav{
+    background: rgba(90, 37, 37, 1);
+    background-image: none;
+}
+
+.navbar-default{
+    height:50px;
+    z-index: 250;
+    margin-bottom:-50px;
+}
+
+#main-content{
+    background-color: #FFFFFF;
+    color: #333333;
+    z-index: 200;
+    padding:110px 50px 50px;    
+}
+
+.navbar-collapse{
+
+    background: rgb(101, 54, 54);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0 2px 3px #555;
+    transition: all .5s;
+}
+
+.nav a{
+    color:#FFF;
+}
+
+.dropdown-menu, .dropdown-menu ul, .dropdown-menu ul li, .dropdown-menu > .active > a{
+    background: rgb(101, 54, 54);
+}
+
+.dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+    background: #FFF !important;
+    color: #222 !important;
+}
+
+#footer-top{
+    background: rgb(101, 54, 54);
+}
+
+.full #footer{
+    width: 100%;
+}
+
+.navbar-brand{
+    transition: all .5s;
+}
+

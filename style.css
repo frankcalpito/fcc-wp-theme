@@ -1,0 +1,22 @@
+/*
+Theme Name: Unfinished
+Theme URI: http://www.fccjr.com/
+Description: A minimalistic simple wordpress theme - supports sidebar and footer widgets.
+ 
+Author: Franklin Calpito Jr.
+Version: 1.0
+Tags: minimalistic, simple, widgets, sidebar, elegant
+*/
+
+html, body{
+	height:100%;
+}
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}

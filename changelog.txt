@@ -1,0 +1,28 @@
+version 1.1
+
+- Added customizer controls
+	
+	Added
+	-Basic Settings
+		-Logo upload
+		-Logo position
+		-logo dimensions
+		-Copyright
+		-Copyright visibility
+	-Header Nav area settings
+		-nav position
+		-navbrand text
+		-navbrand visibility
+	-Theme settings
+		-boxed layout
+		-full width layout
+		-primary bg color
+		-primary color
+		-secondary bg color
+		-secondary color
+		-body background image
+
+
+version 1.0
+
+- initial release
